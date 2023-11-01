@@ -14,45 +14,6 @@
     "bottomRow": 10,
     "parentRowSpace": 10,
     "groupButtons": {
-        "groupButtonbw9mpyi3qf": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "iconName": "document",
-            "widgetId": "iiscfdy6up",
-            "menuItems": {},
-            "index": 3,
-            "id": "groupButtonbw9mpyi3qf",
-            "label": "Courses",
-            "placement": "CENTER",
-            "isDisabled": false,
-            "isVisible": true
-        },
-        "groupButtonsaeqguolxg": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "s45z0h43k0",
-            "menuItems": {},
-            "index": 4,
-            "id": "groupButtonsaeqguolxg",
-            "label": "Admin",
-            "placement": "CENTER",
-            "isDisabled": true,
-            "isVisible": true
-        },
-        "groupButton91emiajr00": {
-            "onClick": "{{navigateTo('Professors', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "iconName": "person",
-            "widgetId": "41jnntvvsc",
-            "menuItems": {},
-            "index": 2,
-            "id": "groupButton91emiajr00",
-            "label": "Professors",
-            "placement": "CENTER",
-            "isDisabled": false,
-            "isVisible": true
-        },
         "groupButton3": {
             "buttonType": "MENU",
             "iconName": "more",
@@ -80,7 +41,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 5,
+            "index": 2,
             "label": "More",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -101,19 +62,18 @@
             "isVisible": true,
             "isDisabled": false
         },
-        "groupButton2": {
-            "onClick": "",
+        "groupButton3l6skd6ldi": {
+            "onClick": "{{navigateTo('StudentGroup', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "person",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
+            "widgetId": "c4h3lfa972",
             "menuItems": {},
             "index": 1,
-            "label": "Students",
-            "id": "groupButton2",
+            "id": "groupButton3l6skd6ldi",
+            "label": "Student Groups",
             "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
+            "isDisabled": false,
+            "isVisible": true
         }
     },
     "type": "BUTTON_GROUP_WIDGET",
@@ -122,19 +82,15 @@
     "animateLoading": true,
     "parentColumnSpace": 16.046875,
     "dynamicTriggerPathList": [
-        {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton91emiajr00.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton3l6skd6ldi.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.buttonColor"},
-        {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
-        {"key": "groupButtons.groupButtonbw9mpyi3qf.buttonColor"},
-        {"key": "groupButtons.groupButtonsaeqguolxg.buttonColor"},
         {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
+        {"key": "groupButtons.groupButton3l6skd6ldi.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
