@@ -11,8 +11,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 14,
-    "bottomRow": 67,
+    "topRow": 19,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -189,11 +189,11 @@
     "mobileTopRow": 72,
     "responsiveBehavior": "fill",
     "yAxisName": "Frequency",
-    "originalTopRow": 14,
+    "originalTopRow": 19,
     "chartName": "Histogram: Last Names",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 41,
     "xAxisName": "Last Name",
-    "originalBottomRow": 67,
+    "originalBottomRow": 72,
     "chartType": "COLUMN_CHART"
 }

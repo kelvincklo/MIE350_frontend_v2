@@ -14,16 +14,16 @@
     "bottomRow": 10,
     "parentRowSpace": 10,
     "groupButtons": {
-        "groupButtonsaeqguolxg": {
+        "groupButtonlrx3plf4lu": {
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "s45z0h43k0",
+            "widgetId": "cci2amb32j",
             "menuItems": {},
-            "index": 2,
-            "id": "groupButtonsaeqguolxg",
-            "label": "Admin",
+            "index": 1,
+            "id": "groupButtonlrx3plf4lu",
+            "label": "Events",
             "placement": "CENTER",
-            "isDisabled": true,
+            "isDisabled": false,
             "isVisible": true
         },
         "groupButtonecnbhu0uzw": {
@@ -32,7 +32,7 @@
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "30qkbrzdp6",
             "menuItems": {},
-            "index": 3,
+            "index": 2,
             "id": "groupButtonecnbhu0uzw",
             "label": "Student Groups",
             "placement": "CENTER",
@@ -66,7 +66,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 4,
+            "index": 3,
             "label": "More",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -86,20 +86,6 @@
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
-        },
-        "groupButton2": {
-            "onClick": "{{navigateTo('Students', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "iconName": "person",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "Students",
-            "id": "groupButton2",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
         }
     },
     "type": "BUTTON_GROUP_WIDGET",
@@ -108,7 +94,6 @@
     "animateLoading": true,
     "parentColumnSpace": 16.046875,
     "dynamicTriggerPathList": [
-        {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButtonecnbhu0uzw.onClick"}
     ],
@@ -116,9 +101,8 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.buttonColor"},
-        {"key": "groupButtons.groupButtonsaeqguolxg.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButtonecnbhu0uzw.buttonColor"}
+        {"key": "groupButtons.groupButtonecnbhu0uzw.buttonColor"},
+        {"key": "groupButtons.groupButtonlrx3plf4lu.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
@@ -135,9 +119,9 @@
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 6,
+    "originalTopRow": 12,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 10,
+    "originalBottomRow": 16,
     "buttonVariant": "PRIMARY"
 }
