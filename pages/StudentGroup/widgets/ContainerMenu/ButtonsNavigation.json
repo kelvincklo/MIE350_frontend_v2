@@ -10,35 +10,10 @@
         "click",
         "submit"
     ],
-    "topRow": 7,
-    "bottomRow": 11,
+    "topRow": 6,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "groupButtons": {
-        "groupButtonlrx3plf4lu": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "cci2amb32j",
-            "menuItems": {},
-            "index": 1,
-            "id": "groupButtonlrx3plf4lu",
-            "label": "Events",
-            "placement": "CENTER",
-            "isDisabled": false,
-            "isVisible": true
-        },
-        "groupButtonecnbhu0uzw": {
-            "onClick": "{{navigateTo('StudentGroup', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "30qkbrzdp6",
-            "menuItems": {},
-            "index": 2,
-            "id": "groupButtonecnbhu0uzw",
-            "label": "Student Groups",
-            "placement": "CENTER",
-            "isDisabled": false,
-            "isVisible": true
-        },
         "groupButton3": {
             "buttonType": "MENU",
             "iconName": "more",
@@ -66,7 +41,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 3,
+            "index": 2,
             "label": "More",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -77,7 +52,7 @@
             "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "home",
-            "buttonColor": "#be185d",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
@@ -86,6 +61,19 @@
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
+        },
+        "groupButton3l6skd6ldi": {
+            "onClick": "{{navigateTo('StudentGroup', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "c4h3lfa972",
+            "menuItems": {},
+            "index": 1,
+            "id": "groupButton3l6skd6ldi",
+            "label": "Student Groups",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
         }
     },
     "type": "BUTTON_GROUP_WIDGET",
@@ -95,20 +83,20 @@
     "parentColumnSpace": 16.046875,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButtonecnbhu0uzw.onClick"}
+        {"key": "groupButtons.groupButton3l6skd6ldi.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.buttonColor"},
-        {"key": "groupButtons.groupButtonecnbhu0uzw.buttonColor"},
-        {"key": "groupButtons.groupButtonlrx3plf4lu.buttonColor"}
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton3l6skd6ldi.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 44,
-    "widgetId": "025zweobfi",
+    "rightColumn": 45,
+    "widgetId": "cr84ant95w",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
@@ -119,9 +107,9 @@
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 14,
+    "originalTopRow": 6,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 18,
+    "originalBottomRow": 10,
     "buttonVariant": "PRIMARY"
 }
