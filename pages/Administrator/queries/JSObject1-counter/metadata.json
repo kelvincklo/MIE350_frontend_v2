@@ -33,8 +33,10 @@
         "key": "body"
       }
     ],
-    "isValid": true,
-    "invalids": [],
+    "isValid": false,
+    "invalids": [
+      "Unable to find plugin 6540a2f3abab632c4b69ab90"
+    ],
     "messages": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

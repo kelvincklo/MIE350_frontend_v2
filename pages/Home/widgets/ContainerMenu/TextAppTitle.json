@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "U of T Activities Portal",
+    "text": "MIE350 University App",
     "key": "97cdd5cp5h",
     "isDeprecated": false,
     "rightColumn": 44,
