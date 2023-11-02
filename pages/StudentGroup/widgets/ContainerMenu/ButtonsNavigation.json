@@ -1,0 +1,127 @@
+{
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "mobileBottomRow": 10,
+    "widgetName": "ButtonsNavigation",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 7,
+    "bottomRow": 11,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButtonlrx3plf4lu": {
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "cci2amb32j",
+            "menuItems": {},
+            "index": 1,
+            "id": "groupButtonlrx3plf4lu",
+            "label": "Events",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "groupButtonecnbhu0uzw": {
+            "onClick": "{{navigateTo('StudentGroup', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "30qkbrzdp6",
+            "menuItems": {},
+            "index": 2,
+            "id": "groupButtonecnbhu0uzw",
+            "label": "Student Groups",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "groupButton3": {
+            "buttonType": "MENU",
+            "iconName": "more",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {
+                "menuItem1": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 0,
+                    "label": "Contact Information",
+                    "id": "menuItem1",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem2": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "",
+                    "widgetId": "",
+                    "index": 1,
+                    "label": "Software Version",
+                    "id": "menuItem2",
+                    "isVisible": true,
+                    "isDisabled": false
+                }
+            },
+            "index": 3,
+            "label": "More",
+            "id": "groupButton3",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton1": {
+            "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "iconName": "home",
+            "buttonColor": "#be185d",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Home",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 24,
+    "animateLoading": true,
+    "parentColumnSpace": 16.046875,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtonecnbhu0uzw.onClick"}
+    ],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton3.buttonColor"},
+        {"key": "groupButtons.groupButtonecnbhu0uzw.buttonColor"},
+        {"key": "groupButtons.groupButtonlrx3plf4lu.buttonColor"}
+    ],
+    "key": "je3x7exw2a",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 44,
+    "widgetId": "025zweobfi",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "aq4ebgem7n",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 6,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 14,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
+    "originalBottomRow": 18,
+    "buttonVariant": "PRIMARY"
+}
