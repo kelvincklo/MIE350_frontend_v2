@@ -1,0 +1,14 @@
+{{
+	{
+		//eventCode, eventName, studentGroup, roomCode, date, duration, description, eventType, eventCapacity
+		"eventCode":this.params.eventCode,
+		"eventName":this.params.eventName,
+		"groupId":this.params.groupId,
+		"roomCode":this.params.roomCode,
+		"date":this.params.date,
+		"duration":this.params.duration,
+		"description":this.params.description,
+		"eventType":this.params.eventType,
+		"eventCapacity":this.params.eventCapacity
+	}
+}}

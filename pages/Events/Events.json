@@ -1,0 +1,56 @@
+{
+  "unpublishedPage": {
+    "name": "Events",
+    "slug": "events",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 600,
+          "containerStyle": "none",
+          "snapRows": 93,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 950,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Events_getAllEvents",
+              "name": "getAllEvents",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "\n\t{\n\t\t//eventCode, eventName, studentGroup, roomCode, date, duration, description, eventType, eventCapacity\n\t\t\"eventCode\":this.params.eventCode,\n\t\t\"eventName\":this.params.eventName,\n\t\t\"groupId\":this.params.groupId,\n\t\t\"roomCode\":this.params.roomCode,\n\t\t\"date\":this.params.date,\n\t\t\"duration\":this.params.duration,\n\t\t\"description\":this.params.description,\n\t\t\"eventType\":this.params.eventType,\n\t\t\"eventCapacity\":this.params.eventCapacity\n\t}\n"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Events",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "654413fa90738e6d99016c9e_654414a590738e6d99016cc3"
+}

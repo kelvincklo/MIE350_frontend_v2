@@ -23,6 +23,10 @@
     {
       "id": "Administrator",
       "isDefault": false
+    },
+    {
+      "id": "Events",
+      "isDefault": false
     }
   ],
   "viewMode": false,
