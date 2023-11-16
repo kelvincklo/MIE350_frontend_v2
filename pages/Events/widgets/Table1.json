@@ -96,7 +96,7 @@
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "onAddNewRowSave": "{{addEvent.run().then(() => {\n  getAllEvents.run();\n});}}",
+    "onAddNewRowSave": "{{addEvent.run(Table1.newRow).then(() => {\n  getAllEvents.run();\n});}}",
     "mobileRightColumn": 47,
     "parentColumnSpace": 19.328125,
     "dynamicTriggerPathList": [{"key": "onAddNewRowSave"}],
