@@ -29,7 +29,7 @@
         {"key": "primaryColumns.roomCode.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 13,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -388,7 +388,7 @@
     "key": "qhi79u84nn",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "vy0ijt9gkd",
     "allowAddNewRow": true,

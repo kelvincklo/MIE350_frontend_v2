@@ -14,7 +14,21 @@
     "bottomRow": 10,
     "parentRowSpace": 10,
     "groupButtons": {
+        "groupButtondys6ggbwa4": {
+            "onClick": "{{navigateTo('Events', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "472703skar",
+            "menuItems": {},
+            "index": 4,
+            "id": "groupButtondys6ggbwa4",
+            "label": "Events",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
+        },
         "groupButtonbw9mpyi3qf": {
+            "onClick": "{{navigateTo('Room', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "document",
@@ -22,17 +36,18 @@
             "menuItems": {},
             "index": 3,
             "id": "groupButtonbw9mpyi3qf",
-            "label": "Courses",
+            "label": "Room",
             "placement": "CENTER",
             "isDisabled": false,
             "isVisible": true
         },
         "groupButtonsaeqguolxg": {
+            "onClick": "{{navigateTo('Administrator', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "s45z0h43k0",
             "menuItems": {},
-            "index": 4,
+            "index": 5,
             "id": "groupButtonsaeqguolxg",
             "label": "Admin",
             "placement": "CENTER",
@@ -40,7 +55,7 @@
             "isVisible": true
         },
         "groupButton91emiajr00": {
-            "onClick": "{{navigateTo('Professors', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('StudentGroup', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "person",
@@ -48,7 +63,7 @@
             "menuItems": {},
             "index": 2,
             "id": "groupButton91emiajr00",
-            "label": "Professors",
+            "label": "StudentGroup",
             "placement": "CENTER",
             "isDisabled": false,
             "isVisible": true
@@ -80,7 +95,7 @@
                     "isDisabled": false
                 }
             },
-            "index": 5,
+            "index": 6,
             "label": "More",
             "id": "groupButton3",
             "placement": "CENTER",
@@ -124,7 +139,10 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtonbw9mpyi3qf.onClick"},
+        {"key": "groupButtons.groupButtondys6ggbwa4.onClick"},
+        {"key": "groupButtons.groupButtonsaeqguolxg.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -133,12 +151,13 @@
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
         {"key": "groupButtons.groupButtonbw9mpyi3qf.buttonColor"},
         {"key": "groupButtons.groupButtonsaeqguolxg.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButtondys6ggbwa4.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 45,
+    "rightColumn": 63,
     "widgetId": "5lei5mep8y",
     "minWidth": 450,
     "isVisible": true,
