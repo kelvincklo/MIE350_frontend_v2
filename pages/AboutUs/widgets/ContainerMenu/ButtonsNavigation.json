@@ -93,15 +93,6 @@
                     "id": "menuItem2",
                     "isVisible": true,
                     "isDisabled": false
-                },
-                "menuItemsadaq3lzr6": {
-                    "onClick": "{{navigateTo('AboutUs', {}, 'SAME_WINDOW');}}",
-                    "widgetId": "p3vm954j6l",
-                    "index": 2,
-                    "id": "menuItemsadaq3lzr6",
-                    "label": "About Us",
-                    "isDisabled": false,
-                    "isVisible": true
                 }
             },
             "index": 6,
@@ -151,8 +142,7 @@
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButtonbw9mpyi3qf.onClick"},
         {"key": "groupButtons.groupButtondys6ggbwa4.onClick"},
-        {"key": "groupButtons.groupButtonsaeqguolxg.onClick"},
-        {"key": "groupButtons.groupButton3.menuItems.menuItemsadaq3lzr6.onClick"}
+        {"key": "groupButtons.groupButtonsaeqguolxg.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -167,11 +157,11 @@
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 63,
-    "widgetId": "5lei5mep8y",
+    "widgetId": "w3ybr9mz5y",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "q44x7wqdlf",
+    "parentId": "13j5b8f8kq",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
