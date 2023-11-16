@@ -16,15 +16,13 @@
     "mobileRightColumn": 16,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "Ubuntu",
     "parentColumnSpace": 16.046875,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "textColor"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -38,7 +36,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "{{appsmith.theme.colors.primaryColor}}",
+    "textColor": "#ffffff",
     "version": 1,
     "parentId": "q44x7wqdlf",
     "tags": [

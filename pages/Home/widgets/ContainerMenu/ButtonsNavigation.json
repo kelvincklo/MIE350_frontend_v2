@@ -106,7 +106,7 @@
             "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "home",
-            "buttonColor": "#be185d",
+            "buttonColor": "#ce2029",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
@@ -146,7 +146,6 @@
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "groupButtons.groupButton3.buttonColor"},
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
         {"key": "groupButtons.groupButtonbw9mpyi3qf.buttonColor"},
@@ -170,7 +169,7 @@
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "originalTopRow": 6,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 0,
     "originalBottomRow": 10,
     "buttonVariant": "PRIMARY"
