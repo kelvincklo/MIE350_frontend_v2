@@ -23,10 +23,6 @@
     {
       "id": "Events",
       "isDefault": false
-    },
-    {
-      "id": "AboutUs",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -53,11 +49,7 @@
   "publishedAppLayout": {
     "type": "FLUID"
   },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
