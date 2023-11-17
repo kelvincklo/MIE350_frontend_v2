@@ -90,7 +90,8 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "tableData"}
     ],
     "compactMode": "TALL",
     "displayName": "Table",
