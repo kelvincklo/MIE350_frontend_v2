@@ -23,6 +23,10 @@
     {
       "id": "Events",
       "isDefault": false
+    },
+    {
+      "id": "StudentEvents",
+      "isDefault": false
     }
   ],
   "viewMode": false,

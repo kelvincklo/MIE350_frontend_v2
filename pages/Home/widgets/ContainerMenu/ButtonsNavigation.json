@@ -79,7 +79,7 @@
                     "onClick": "",
                     "widgetId": "",
                     "index": 0,
-                    "label": "Contact Information",
+                    "label": "Student",
                     "id": "menuItem1",
                     "isVisible": true,
                     "isDisabled": false
@@ -89,14 +89,14 @@
                     "onClick": "",
                     "widgetId": "",
                     "index": 1,
-                    "label": "Software Version",
+                    "label": "Admin",
                     "id": "menuItem2",
                     "isVisible": true,
                     "isDisabled": false
                 }
             },
             "index": 6,
-            "label": "More",
+            "label": "Profile",
             "id": "groupButton3",
             "placement": "CENTER",
             "isVisible": true,

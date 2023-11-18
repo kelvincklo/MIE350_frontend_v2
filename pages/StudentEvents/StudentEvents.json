@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "StudentEvents",
+    "slug": "studentevents",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 830,
+          "bottomRow": 460,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "version": 86,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "StudentEvents",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "64de356e6ab1ab28d4ec1641_64de356e6ab1ab28d4ec1643"
+  "gitSyncId": "6542c3672fd9496756df2ab3_655674cbd115d9793c492de4"
 }
