@@ -27,10 +27,6 @@
     {
       "id": "StudentEvents",
       "isDefault": false
-    },
-    {
-      "id": "AboutUs",
-      "isDefault": false
     }
   ],
   "viewMode": false,
