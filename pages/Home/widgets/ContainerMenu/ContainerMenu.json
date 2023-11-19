@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 33,
     "widgetName": "ContainerMenu",
-    "borderColor": "#ffffff",
+    "borderColor": "#ce2029",
     "isCanvas": true,
     "displayName": "Container",
     "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 13,
+    "bottomRow": 12,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -22,7 +22,10 @@
     "parentColumnSpace": 16.359375,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "boxShadow"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
     "children": [{
         "mobileBottomRow": 100,
         "widgetName": "Canvas1Copy",
@@ -55,7 +58,7 @@
         "mobileLeftColumn": 0,
         "flexLayers": []
     }],
-    "borderWidth": "2",
+    "borderWidth": "1",
     "flexVerticalAlignment": "start",
     "key": "wd247956sz",
     "backgroundColor": "#344b8f",
@@ -74,9 +77,9 @@
     "mobileTopRow": 23,
     "responsiveBehavior": "fill",
     "originalTopRow": 0,
-    "borderRadius": "0.375rem",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 13,
+    "originalBottomRow": 12,
     "minDynamicHeight": 10
 }
