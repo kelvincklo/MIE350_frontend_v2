@@ -27,7 +27,8 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
         {"key": "primaryColumns.faculty.computedValue"},
         {"key": "primaryColumns.major.computedValue"},
-        {"key": "primaryColumns.utorId.computedValue"}
+        {"key": "primaryColumns.utorId.computedValue"},
+        {"key": "primaryColumns.rsvps.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -69,7 +70,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1700175909692,
+    "columnUpdatedAt": 1700342500789,
     "originalBottomRow": 67,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
@@ -84,12 +85,12 @@
         "customColumn1",
         "faculty",
         "major",
-        "utorId"
+        "utorId",
+        "rsvps"
     ],
     "dynamicPropertyPathList": [
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
-        {"key": "tableData"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "compactMode": "TALL",
     "displayName": "Table",
@@ -264,6 +265,36 @@
             "enableFilter": true,
             "sticky": "",
             "originalId": "major",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
+        "rsvps": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rsvps\"]))}}",
+            "isEditable": false,
+            "alias": "rsvps",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "rsvps",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 6,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "rsvps",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "rsvps",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
